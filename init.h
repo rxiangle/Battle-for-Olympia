@@ -50,6 +50,7 @@ typedef struct {
     int MaxHealth;
     int Health;
     int Attack;
+    int Defense; //ada di contoh?
     int MaxMove;
     int Move;
     char AttackType; //'m' untuk melee, 'r' untuk ranged
