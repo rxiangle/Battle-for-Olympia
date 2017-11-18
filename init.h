@@ -1,5 +1,5 @@
-#ifndef tipebentukan_H
-#define tipebentukan_H
+#ifndef init_H
+#define init_H
 
 #include "boolean.h"
 
@@ -56,6 +56,7 @@ typedef struct {
     boolean Hit; //kesempatan serangan, true bila belum menyerang, false bila sudah menyerang
     Point Location;
     int Harga;
+    int Cost; //buat upkeep
 } TypeUnit;
 
 
